@@ -1,4 +1,4 @@
-for _ in range(5):
-    range(1,45+1)
-    print('Hello, world!')
+for i in range(5):
+    if i % 2 == 0:
+        print(f'Hello, world!, {i}')
 
